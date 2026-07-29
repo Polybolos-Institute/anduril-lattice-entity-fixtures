@@ -1,0 +1,31 @@
+{
+  "entityId": "polybolos-fixture-adsb-001",
+  "description": "ADS-B airplane fixture",
+  "isLive": true,
+  "createdTime": "2026-07-25T00:00:00Z",
+  "expiryTime": "2099-01-01T00:00:00Z",
+  "aliases": { "name": "AAL123" },
+  "milView": {
+    "disposition": "DISPOSITION_UNKNOWN",
+    "environment": "ENVIRONMENT_AIR"
+  },
+  "location": {
+    "position": {
+      "latitudeDegrees": 32.8990,
+      "longitudeDegrees": -97.0403,
+      "altitudeHaeMeters": 3500.0
+    }
+  },
+  "ontology": {
+    "template": "TEMPLATE_TRACK",
+    "platformType": "ADS-B AIRPLANE"
+  },
+  "provenance": {
+    "dataType": "adsb",
+    "integrationName": "polybolos-lattice-entity-fixtures",
+    "sourceUpdateTime": "2026-07-25T00:00:00Z"
+  },
+  "dataClassification": {
+    "default": { "level": "CLASSIFICATION_LEVELS_UNCLASSIFIED" }
+  }
+}
